@@ -1,0 +1,12 @@
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\bin\Debug\net10.0\Application.deps.json
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\bin\Debug\net10.0\Application.dll
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\bin\Debug\net10.0\Application.pdb
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.AssemblyInfoInputs.cache
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.AssemblyInfo.cs
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.dll
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\refint\Application.dll
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.pdb
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\ref\Application.dll
+C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache

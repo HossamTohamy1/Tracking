@@ -1,0 +1,6 @@
+@APi_Deploy_HostAddress = http://localhost:5157
+
+GET {{APi_Deploy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

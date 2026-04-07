@@ -1,0 +1,31 @@
+﻿# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Build results
+*.exe
+*.dll
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs folder
+Logs/
+log/
+logs/
+
+# OS generated
+Thumbs.db
+.DS_Store
+
+# Others
+*.cache

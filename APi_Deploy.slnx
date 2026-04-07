@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/test/">
+    <Project Path="ECommerce.IntegrationTests/ECommerce.IntegrationTests.csproj" Id="86fcdd41-2149-4b00-8fd4-03431c6ebace" />
+    <Project Path="tests/ECommerce.UnitTests.csproj" Id="6fb1f2b9-8f3f-42a0-a99d-e10170fa2142" />
+  </Folder>
+  <Project Path="APi_Deploy/APi_Presentation.csproj" />
+  <Project Path="Application/Application.csproj" Id="f6d78c89-b5d8-4a99-b555-8a87373e7bfa" />
+  <Project Path="Domain/Domain.csproj" Id="631897b0-234e-4cca-8657-b2be6917b6ea" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="67f73a56-b0f7-40ae-bc52-7d2c9fabb63b" />
+</Solution>
