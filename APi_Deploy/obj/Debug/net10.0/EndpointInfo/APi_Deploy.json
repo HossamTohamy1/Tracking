@@ -1,9 +1,0 @@
-{
-  "openapi": "3.0.4",
-  "info": {
-    "title": "Shipping & Import API",
-    "version": "v1"
-  },
-  "paths": { },
-  "components": { }
-}
