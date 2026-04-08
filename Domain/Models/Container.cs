@@ -1,26 +1,12 @@
+using Domain.Enums.Enums_Models;
 using System;
 using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    public enum ContainerStatus
-    {
-        Open = 0,          // مفتوح - يقبل شحنات جديدة
-        Closed = 1,        // مغلق - لا يقبل شحنات جديدة
-        Shipped = 2,       // تم شحنه
-        InTransit = 3,
-        ArrivedPort = 4,
-        Customs = 5,
-        Delivered = 6,
-        Cancelled = 7
-    }
 
-    /// <summary>
-    /// الكونتنر المشترك - يجمع شحنات صغيرة (LCL) متعددة
-    /// يديره مستخدم بدور ImportOffice
-    /// تكلفة الشحن تُوزَّع على الشحنات بحسب الحجم:
-    ///   CostShare = (VolumeCbm / TotalVolumeCbm) × TotalShippingCost
-    /// </summary>
+
+
     public class Container : BaseEntity
     {
         public string ContainerNumber { get; set; } = string.Empty;  // UNIQUE
@@ -29,7 +15,6 @@ namespace Domain.Models
         public decimal MaxWeightKg { get; set; }
         public decimal MaxVolumeCbm { get; set; }
 
-        // يُحدَّث تلقائياً عند إضافة/إزالة ContainerItem
         public decimal CurrentWeightKg { get; set; } = 0;
         public decimal CurrentVolumeCbm { get; set; } = 0;
 
@@ -39,10 +24,8 @@ namespace Domain.Models
         public DateTime? ExpectedArrival { get; set; }
         public DateTime? DeliveredAt { get; set; }
 
-        // تكلفة الشحن الإجمالية للكونتنر (تُوزَّع على الشحنات)
         public decimal TotalShippingCost { get; set; } = 0;
 
-        // المكتب المسؤول — Role = ImportOffice
         public Guid ManagedByOfficeId { get; set; }
         public virtual ApplicationUser ManagedByOffice { get; set; } = null!;
 
@@ -51,19 +34,15 @@ namespace Domain.Models
         public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
     }
 
-    /// <summary>
-    /// جدول الربط بين ImportRequest والContainer
-    /// يخزن حصة كل شحنة من وزن وحجم وتكلفة الكونتنر
-    /// </summary>
+
     public class ContainerItem : BaseEntity
     {
         public Guid ContainerId { get; set; }
-        public Guid ImportRequestId { get; set; }   // UNIQUE - كل طلب في كونتنر واحد فقط
+        public Guid ImportRequestId { get; set; }   
 
         public decimal WeightKg { get; set; }
         public decimal VolumeCbm { get; set; }
 
-        // الحصة المحسوبة: (VolumeCbm / TotalVolumeCbm) × TotalShippingCost
         public decimal CostShare { get; set; } = 0;
 
         // Navigation Properties

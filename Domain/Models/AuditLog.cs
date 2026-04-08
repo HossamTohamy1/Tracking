@@ -2,18 +2,9 @@ using System;
 
 namespace Domain.Models
 {
-    /// <summary>
-    /// سجل التدقيق — يُسجَّل تلقائياً عند أي تغيير على كيانات حساسة
-    ///
-    /// UserId nullable: إذا كان التغيير من النظام تلقائياً
-    /// Action: "Created" | "Updated" | "Deleted" | "StatusChanged" | "RoleChanged"
-    /// OldValues / NewValues: JSON للمقارنة
-    ///
-    /// يُستخدم من: Admin و Support للمراجعة والتدقيق
-    /// </summary>
+
     public class AuditLog : BaseEntity
     {
-        /// <summary>null = النظام تلقائياً | Guid = Admin أو ImportOffice أو أي Role</summary>
         public Guid? UserId { get; set; }
 
         public string EntityName { get; set; } = string.Empty;   // "ImportRequest" / "Payment" / "User" ...

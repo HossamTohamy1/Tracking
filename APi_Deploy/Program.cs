@@ -112,11 +112,13 @@ try
     {
         options.AddPolicy("AllowReact", policy =>
             policy
-                .WithOrigins("http://localhost:5173", "https://my-portfolie7.netlify.app")
+                .WithOrigins(
+                    "http://localhost:5173",
+                    "https://gleeful-churros-3fcff0.netlify.app"
+                )
                 .AllowAnyHeader()
                 .AllowAnyMethod());
     });
-
     // ============================================================
     // 8️⃣ Controllers + JSON
     // ============================================================

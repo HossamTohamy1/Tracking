@@ -1,40 +1,25 @@
+using Domain.Enums.Enums_Models;
 using System;
 using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    public enum CustomsStatus
-    {
-        PendingDocuments = 0,    // في انتظار رفع المستندات
-        DocumentsSubmitted = 1,  // تم تقديم المستندات
-        UnderReview = 2,         // قيد المراجعة من الجمارك
-        RequiresAction = 3,      // يتطلب إجراء (نواقص)
-        Approved = 4,            // موافق عليه
-        Released = 5,            // أُفرج عنه
-        Rejected = 6             // مرفوض
-    }
+ 
 
-    /// <summary>
-    /// التخليص الجمركي — يُنشأ عند وصول الشحنة للميناء
-    /// 1-to-1 مع ImportRequest
-    /// HandledByOffice → مستخدم بدور ImportOffice
-    /// المكتب يرفع المستندات، Admin أو Support يتابع
-    /// </summary>
     public class CustomsClearance : BaseEntity
     {
         public Guid ImportRequestId { get; set; }
 
-        /// <summary>المكتب المسؤول عن التخليص — Role = ImportOffice</summary>
         public Guid HandledByOfficeId { get; set; }
 
         public CustomsStatus Status { get; set; } = CustomsStatus.PendingDocuments;
 
-        public string? DeclarationNumber { get; set; }   // رقم البيان الجمركي
-        public string? CustomsBroker { get; set; }       // اسم المخلِّص الجمركي
+        public string? DeclarationNumber { get; set; }   
+        public string? CustomsBroker { get; set; }       
 
-        public decimal CustomsValue { get; set; }        // القيمة الجمركية المُقدَّرة
-        public decimal DutyAmount { get; set; }          // قيمة الرسوم الجمركية
-        public decimal TaxAmount { get; set; }           // الضرائب
+        public decimal CustomsValue { get; set; }        
+        public decimal DutyAmount { get; set; }          
+        public decimal TaxAmount { get; set; }           
 
         public DateTime? DocumentsSubmittedAt { get; set; }
         public DateTime? CustomsApprovedAt { get; set; }
@@ -46,28 +31,14 @@ namespace Domain.Models
         // Navigation Properties
         public virtual ImportRequest ImportRequest { get; set; } = null!;
 
-        /// <summary>المكتب المسؤول — ApplicationUser بدور ImportOffice</summary>
         public virtual ApplicationUser HandledByOffice { get; set; } = null!;
 
         public virtual ICollection<CustomsDocument> Documents { get; set; } = new List<CustomsDocument>();
     }
 
-    public enum DocumentType
-    {
-        CommercialInvoice,    // فاتورة تجارية
-        PackingList,          // قائمة التعبئة
-        BillOfLading,         // بوليصة الشحن
-        CertificateOfOrigin,  // شهادة المنشأ
-        ImportLicense,        // ترخيص الاستيراد
-        InsuranceCertificate,
-        Other
-    }
+ 
 
-    /// <summary>
-    /// مستندات التخليص الجمركي
-    /// UploadedBy → ImportOffice
-    /// VerifiedBy → Admin أو Support
-    /// </summary>
+   
     public class CustomsDocument : BaseEntity
     {
         public Guid CustomsClearanceId { get; set; }
@@ -86,10 +57,8 @@ namespace Domain.Models
         // Navigation Properties
         public virtual CustomsClearance CustomsClearance { get; set; } = null!;
 
-        /// <summary>رفع المستند — ImportOffice</summary>
         public virtual ApplicationUser UploadedBy { get; set; } = null!;
 
-        /// <summary>التحقق من المستند — Admin أو Support</summary>
         public virtual ApplicationUser? VerifiedBy { get; set; }
     }
 }

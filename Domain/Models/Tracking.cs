@@ -6,21 +6,18 @@ namespace Domain.Models
     public enum ShipmentStage
     {
         Purchased = 0,
-        Processing = 1,      // جاري التجهيز
+        Processing = 1,   
         ReadyToShip = 2,
-        Shipped = 3,         // تم الشحن / على الباخرة
-        InTransit = 4,       // في الطريق
-        ArrivedPort = 5,     // وصل الميناء
-        Customs = 6,         // في التخليص الجمركي
+        Shipped = 3,         
+        InTransit = 4,       
+        ArrivedPort = 5,     
+        Customs = 6,         
         OutForDelivery = 7,
         Delivered = 8,
-        Exception = 9        // مشكلة / توقف
+        Exception = 9        
     }
 
-    /// <summary>
-    /// تتبع الشحنة — يُنشأ تلقائياً عند موافقة ImportOffice على الطلب
-    /// يحتفظ بالمرحلة الحالية + سجل كامل بالتغييرات
-    /// </summary>
+
     public class Tracking : BaseEntity
     {
         public Guid ImportRequestId { get; set; }
@@ -30,7 +27,6 @@ namespace Domain.Models
         public string? CurrentLocation { get; set; }
         public DateTime? EstimatedDeliveryDate { get; set; }
 
-        // تواريخ المراحل الرئيسية
         public DateTime? ShippedAt { get; set; }
         public DateTime? ArrivedPortAt { get; set; }
         public DateTime? CustomsClearedAt { get; set; }

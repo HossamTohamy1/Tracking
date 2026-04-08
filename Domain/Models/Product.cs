@@ -3,9 +3,7 @@ using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    /// <summary>
-    /// المنتجات المتاحة للاستيراد - يضيفها المكتب (Office)
-    /// </summary>
+  
     public class Product : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
@@ -15,7 +13,6 @@ namespace Domain.Models
         public decimal UnitPrice { get; set; }
         public string Currency { get; set; } = "USD";
 
-        // بيانات الشحن
         public decimal WeightPerUnitKg { get; set; }
         public decimal VolumePerUnitCbm { get; set; }
 
