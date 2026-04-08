@@ -1,5 +1,6 @@
 using APi_Presentation.Extensions;
 using Application.Common;
+using Application.Common.Mappings;
 using Application.Features.Auth.Commands.Register;
 using Domain.Models;
 using Infrastructure.Data;
@@ -13,7 +14,7 @@ using Serilog;
 using System.Text;
 
 // ============================================================
-// 1️⃣ Serilog — مبكراً
+// 1️⃣ Serilog 
 // ============================================================
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(new ConfigurationBuilder()
@@ -76,7 +77,7 @@ try
         })
         .AddJwtBearer(options =>
         {
-            options.RequireHttpsMetadata = false; // true في Production
+            options.RequireHttpsMetadata = false; 
             options.SaveToken = true;
             options.TokenValidationParameters = new TokenValidationParameters
             {
@@ -99,6 +100,8 @@ try
     builder.Services.AddHttpContextAccessor();
     builder.Services.AddMediatR(cfg =>
         cfg.RegisterServicesFromAssembly(typeof(RegisterCommandHandler).Assembly));
+
+    builder.Services.AddAutoMapper(typeof(MappingProfile));
 
     // ============================================================
     // 6️⃣ Seeder (Scoped)

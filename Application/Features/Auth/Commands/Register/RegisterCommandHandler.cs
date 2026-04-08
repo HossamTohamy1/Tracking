@@ -1,5 +1,7 @@
 ﻿using Application.Common;
+using Application.Common.Mappings;
 using Application.DTOs.Auth;
+using AutoMapper;
 using Domain.Constants;
 using Domain.Enums;
 using Domain.Exceptions;
@@ -7,10 +9,8 @@ using Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace Application.Features.Auth.Commands.Register
 {
@@ -18,46 +18,57 @@ namespace Application.Features.Auth.Commands.Register
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly JwtSettings _jwt;
+        private readonly IMapper _mapper;
+        private static readonly ILogger _logger = Log.ForContext<RegisterCommandHandler>();
         private const string Module = "Auth";
 
         public RegisterCommandHandler(
             UserManager<ApplicationUser> userManager,
-            IOptions<JwtSettings> jwt)
+            IOptions<JwtSettings> jwt,
+            IMapper mapper)
         {
             _userManager = userManager;
             _jwt = jwt.Value;
+            _mapper = mapper;
         }
 
         public async Task<AuthResponseDto> Handle(
             RegisterCommand request,
             CancellationToken cancellationToken)
         {
-            // ── 1. التحقق من صحة الـ Role ──────────────────────────────
+            _logger.Information("Register attempt for {Email} with role {Role}",
+                request.Email, request.Role);
+
             if (!AppRoles.AllowedForRegistration.Contains(request.Role))
+            {
+                _logger.Warning("Invalid role attempted during registration: {Role}", request.Role);
                 throw new BusinessLogicException(
                     $"Role '{request.Role}' is not allowed during self-registration. " +
                     $"Allowed roles: {string.Join(", ", AppRoles.AllowedForRegistration)}",
                     Module,
                     AppErrorCode.ValidationError);
+            }
 
-            // ── 2. ImportOffice يحتاج CompanyName ───────────────────────
             if (request.Role == AppRoles.ImportOffice &&
                 string.IsNullOrWhiteSpace(request.CompanyName))
+            {
+                _logger.Warning("CompanyName missing for ImportOffice registration: {Email}", request.Email);
                 throw new BusinessLogicException(
                     "CompanyName is required for ImportOffice accounts.",
                     Module,
                     AppErrorCode.ValidationError);
+            }
 
-            // ── 3. التحقق من تكرار الإيميل ──────────────────────────────
             var existing = await _userManager.FindByEmailAsync(request.Email);
             if (existing is not null)
+            {
+                _logger.Warning("Duplicate registration attempt for {Email}", request.Email);
                 throw new BusinessLogicException(
                     "Email is already registered.",
                     Module,
                     AppErrorCode.EmailAlreadyExists);
+            }
 
-            // ── 4. إنشاء المستخدم ───────────────────────────────────────
-            // ImportOffice يحتاج موافقة Admin قبل التفعيل
             bool isActiveByDefault = request.Role != AppRoles.ImportOffice;
 
             var user = new ApplicationUser
@@ -79,35 +90,38 @@ namespace Application.Features.Auth.Commands.Register
             {
                 var errors = createResult.Errors
                     .ToDictionary(e => e.Code, e => new[] { e.Description });
+                _logger.Warning("User creation failed for {Email}: {@Errors}", request.Email, errors);
                 throw new ValidationException("Registration failed.", errors, Module);
             }
 
-            // ── 5. تعيين الـ Role ────────────────────────────────────────
             var roleResult = await _userManager.AddToRoleAsync(user, request.Role);
             if (!roleResult.Succeeded)
             {
                 await _userManager.DeleteAsync(user);
                 var errors = roleResult.Errors
                     .ToDictionary(e => e.Code, e => new[] { e.Description });
+                _logger.Error("Role assignment failed for {Email}: {@Errors}", request.Email, errors);
                 throw new ValidationException("Failed to assign role.", errors, Module);
             }
 
-            // ── 6. ImportOffice → رسالة انتظار موافقة Admin ─────────────
             if (!isActiveByDefault)
-                return new AuthResponseDto
-                {
-                    Token = string.Empty,
-                    FullName = user.FullName,
-                    Email = user.Email!,
-                    Role = request.Role,
-                    ExpiresAt = DateTime.UtcNow,
-                    Message = "Your account is pending Admin approval. You will be notified once activated."
-                };
+            {
+                _logger.Information("ImportOffice account pending approval: {Email}", request.Email);
+
+                var pendingDto = _mapper.Map<AuthResponseDto>(user);
+                pendingDto.Token = string.Empty;
+                pendingDto.Role = request.Role;
+                pendingDto.ExpiresAt = DateTime.UtcNow;
+                pendingDto.Message = "Your account is pending Admin approval. You will be notified once activated.";
+                return pendingDto;
+            }
+
+            _logger.Information("User registered successfully: {Email} as {Role}",
+                user.Email, request.Role);
 
             return await BuildResponseAsync(user);
         }
 
-        // ─── Helpers ────────────────────────────────────────────────────
 
         private async Task<AuthResponseDto> BuildResponseAsync(ApplicationUser user)
         {
@@ -115,38 +129,11 @@ namespace Application.Features.Auth.Commands.Register
             var role = roles.FirstOrDefault() ?? AppRoles.Customer;
             var expires = DateTime.UtcNow.AddDays(_jwt.ExpiryDays);
 
-            return new AuthResponseDto
-            {
-                Token = GenerateJwt(user, role, expires),
-                FullName = user.FullName,
-                Email = user.Email!,
-                Role = role,
-                ExpiresAt = expires
-            };
-        }
-
-        private string GenerateJwt(ApplicationUser user, string role, DateTime expires)
-        {
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwt.SecretKey));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
-            {
-                new Claim(JwtRegisteredClaimNames.Sub,   user.Id.ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, user.Email!),
-                new Claim(JwtRegisteredClaimNames.Jti,   Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Name,               user.FullName),
-                new Claim(ClaimTypes.Role,               role),
-            };
-
-            var token = new JwtSecurityToken(
-                issuer: _jwt.Issuer,
-                audience: _jwt.Audience,
-                claims: claims,
-                expires: expires,
-                signingCredentials: creds);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var dto = _mapper.Map<AuthResponseDto>(user);
+            dto.Token = JwtHelper.Generate(user, role, expires, _jwt);
+            dto.Role = role;
+            dto.ExpiresAt = expires;
+            return dto;
         }
     }
 }
