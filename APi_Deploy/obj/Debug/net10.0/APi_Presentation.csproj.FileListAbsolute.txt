@@ -377,3 +377,4 @@ E:\par e\APi_Deploy\APi_Deploy\bin\Debug\net10.0\MediatR.dll
 E:\par e\APi_Deploy\APi_Deploy\bin\Debug\net10.0\MediatR.Contracts.dll
 E:\par e\APi_Deploy\APi_Deploy\bin\Debug\net10.0\MediatR.Extensions.Autofac.DependencyInjection.dll
 E:\par e\APi_Deploy\APi_Deploy\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\par e\APi_Deploy\APi_Deploy\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
