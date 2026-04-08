@@ -369,6 +369,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("ApplicationUserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -421,6 +424,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("HandledByOfficeId");
 
@@ -1054,8 +1059,13 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("DeviceInfo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("IpAddress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
@@ -1067,12 +1077,11 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsRevoked")
                         .HasColumnType("bit");
 
-                    b.Property<string>("RefreshToken")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("RefreshTokenExpiresAt")
+                    b.Property<DateTime>("LastActivityAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("RevokedAt")
                         .HasColumnType("datetime2");
@@ -1080,11 +1089,14 @@ namespace Infrastructure.Migrations
                     b.Property<string>("RevokedReason")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UserAgent")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("UserId")
@@ -1241,7 +1253,7 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Models.Container", b =>
                 {
                     b.HasOne("Domain.Models.ApplicationUser", "ManagedByOffice")
-                        .WithMany()
+                        .WithMany("ManagedContainers")
                         .HasForeignKey("ManagedByOfficeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1281,6 +1293,10 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Models.CustomsClearance", b =>
                 {
+                    b.HasOne("Domain.Models.ApplicationUser", null)
+                        .WithMany("HandledClearances")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("Domain.Models.ApplicationUser", "HandledByOffice")
                         .WithMany()
                         .HasForeignKey("HandledByOfficeId")
@@ -1407,7 +1423,7 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Models.Payment", b =>
                 {
                     b.HasOne("Domain.Models.Container", "Container")
-                        .WithMany()
+                        .WithMany("Payments")
                         .HasForeignKey("ContainerId");
 
                     b.HasOne("Domain.Models.ImportRequest", "ImportRequest")
@@ -1556,6 +1572,10 @@ namespace Infrastructure.Migrations
 
                     b.Navigation("ExportProducts");
 
+                    b.Navigation("HandledClearances");
+
+                    b.Navigation("ManagedContainers");
+
                     b.Navigation("MyImportRequests");
 
                     b.Navigation("Notifications");
@@ -1578,6 +1598,8 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Models.Container", b =>
                 {
                     b.Navigation("Items");
+
+                    b.Navigation("Payments");
                 });
 
             modelBuilder.Entity("Domain.Models.CustomsClearance", b =>

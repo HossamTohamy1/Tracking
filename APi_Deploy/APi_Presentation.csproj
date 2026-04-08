@@ -11,6 +11,9 @@
     <PackageReference Include="AutoMapper.Collection" Version="13.0.0" />
     <PackageReference Include="AutoMapper.Extensions.EnumMapping" Version="6.0.0" />
     <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="14.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.5">
@@ -31,10 +34,10 @@
     <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="ECommerce.Infrastructure\" />
     <Folder Include="Filters\" />
     <Folder Include="wwwroot\" />

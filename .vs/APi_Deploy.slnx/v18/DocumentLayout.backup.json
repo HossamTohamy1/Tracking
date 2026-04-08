@@ -1,218 +1,269 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\",
+  "WorkspaceRootPath": "E:\\par e\\APi_Deploy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\api_presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\api_presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\api_presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\api_presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|solutionrelative:api_deploy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\features\\auth\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\middleware\\globalerrorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\middleware\\globalerrorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|solutionrelative:api_deploy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\exceptions\\businesslogicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\businesslogicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\dtos\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\dtos\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\exceptions\\baseapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\baseapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\enums\\apperrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\apperrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\helpers\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helpers\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\customsdocumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\customsdocumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\customsclearanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\customsclearanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\costcalculationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\costcalculationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\containeritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\containeritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\trackinghistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\trackinghistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\trackingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\trackingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\data\\configurations\\importrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\importrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\tracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\tracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\tracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\exportproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\exportproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\exportproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\customsclearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\customsclearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\customsclearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\costcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\costcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86FCDD41-2149-4B00-8FD4-03431C6EBACE}|ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\ecommerce.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\seeders\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seeders\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\constants\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\enums\\apperrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\apperrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\common\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\middleware\\globalerrorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\middleware\\globalerrorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\helpers\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helpers\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\exceptions\\businesslogicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\businesslogicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\exceptions\\baseapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\baseapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|e:\\par e\\api_deploy\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6D78C89-B5D8-4A99-B555-8A87373E7BFA}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\customsdocumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\customsdocumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\customsclearanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\customsclearanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\costcalculationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\costcalculationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\containeritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\containeritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\trackinghistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\trackinghistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\trackingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\trackingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\data\\configurations\\importrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\importrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\models\\costcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\models\\costcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FCDD41-2149-4B00-8FD4-03431C6EBACE}|ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj|e:\\par e\\api_deploy\\ecommerce.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86FCDD41-2149-4B00-8FD4-03431C6EBACE}|ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj|solutionrelative:ecommerce.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\ECommerce.UnitTests.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\tests\\ecommerce.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\ECommerce.UnitTests.csproj|e:\\par e\\api_deploy\\tests\\ecommerce.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\ECommerce.UnitTests.csproj|solutionrelative:tests\\ecommerce.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|e:\\par e\\api_deploy\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{67F73A56-B0F7-40AE-BC52-7D2C9FABB63B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\tests.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|e:\\par e\\api_deploy\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{631897B0-234E-4CCA-8657-B2BE6917B6EA}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|c:\\users\\hossny d. monkey\\source\\repos\\api_deploy\\api_deploy\\properties\\publishprofiles\\site61832-webdeploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{823EF5BC-D744-4265-B841-E691574E28AD}|APi_Deploy\\APi_Deploy.csproj|solutionrelative:api_deploy\\properties\\publishprofiles\\site61832-webdeploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Migrations\\20260403173955_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Migrations\\20260403173955_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APi_Deploy\\Migrations\\20260403173955_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\ECommerce.UnitTests.csproj|e:\\par e\\api_deploy\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB1F2B9-8F3F-42A0-A99D-E10170FA2142}|tests\\ECommerce.UnitTests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|e:\\par e\\api_deploy\\api_deploy\\properties\\publishprofiles\\site61832-webdeploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{72B832C6-4156-0406-AB6E-8C78D5D74214}|APi_Deploy\\APi_Presentation.csproj|solutionrelative:api_deploy\\properties\\publishprofiles\\site61832-webdeploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -222,658 +273,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Program.cs",
-              "RelativeDocumentMoniker": "APi_Deploy\\Program.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Program.cs",
-              "RelativeToolTip": "APi_Deploy\\Program.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAADwv6kAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T11:33:58.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GeneralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Repositories\\GeneralRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GeneralRepository.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Repositories\\GeneralRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\GeneralRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:29:30.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Application",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-05T09:23:12.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "APi_Deploy.csproj",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\APi_Presentation.csproj",
-              "RelativeDocumentMoniker": "APi_Deploy\\APi_Presentation.csproj",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\APi_Presentation.csproj",
-              "RelativeToolTip": "APi_Deploy\\APi_Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-03T13:53:49.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:52:58.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValidationException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\ValidationException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\ValidationException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\ValidationException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\ValidationException.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBoAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:52:05.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\appsettings.json",
-              "RelativeDocumentMoniker": "APi_Deploy\\appsettings.json",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\appsettings.json",
-              "RelativeToolTip": "APi_Deploy\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-03T17:38:31.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAnwBIAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:51:38.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BusinessLogicException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\BusinessLogicException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\BusinessLogicException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\BusinessLogicException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\BusinessLogicException.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIA+wBcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:51:12.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\ViewModel\\ResponseViewModel.cs",
-              "RelativeDocumentMoniker": "APi_Deploy\\ViewModel\\ResponseViewModel.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\ViewModel\\ResponseViewModel.cs",
-              "RelativeToolTip": "APi_Deploy\\ViewModel\\ResponseViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:43:12.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MiddlewareExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
-              "RelativeToolTip": "APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:53:40.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseApplicationException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\BaseApplicationException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\BaseApplicationException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Exceptions\\BaseApplicationException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\BaseApplicationException.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:50:40.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppErrorCode.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Enums\\AppErrorCode.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\AppErrorCode.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Enums\\AppErrorCode.cs",
-              "RelativeToolTip": "Domain\\Enums\\AppErrorCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:50:01.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IGeneralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Interfaces\\IGeneralRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IGeneralRepository.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Interfaces\\IGeneralRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IGeneralRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:32:09.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GenerateToken.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Helpers\\GenerateToken.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Helpers\\GenerateToken.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Helpers\\GenerateToken.cs",
-              "RelativeToolTip": "Infrastructure\\Helpers\\GenerateToken.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:25:53.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\AuditLog.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\AuditLog.cs",
-              "RelativeToolTip": "Domain\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:37:58.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "Domain\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:38:18.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Constants.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Constants.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Constants.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T11:27:02.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CustomsClearanceConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:56:38.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CustomsDocumentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:56:50.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ApplicationUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:58:00.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA+wCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:47:57.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\SeedData.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T10:14:37.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AuditLogConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:57:49.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReviewConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:57:36.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MessageConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:57:14.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PaymentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:57:01.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CostCalculationConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:56:23.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ContainerItemConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:56:08.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ContainerConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:55:09.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "TrackingHistoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:54:52.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TrackingConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:54:39.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ImportRequestConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:54:16.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\UserSession.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\UserSession.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\UserSession.cs",
-              "RelativeToolTip": "Domain\\Models\\UserSession.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:40:29.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Tracking.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Tracking.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Tracking.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Tracking.cs",
-              "RelativeToolTip": "Domain\\Models\\Tracking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:40:22.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Review.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Review.cs",
-              "RelativeToolTip": "Domain\\Models\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:40:09.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Product.cs",
-              "RelativeToolTip": "Domain\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:40:02.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Payment.cs",
-              "RelativeToolTip": "Domain\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:53.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Domain\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:35:47.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Notification.cs",
-              "RelativeToolTip": "Domain\\Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:48.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Message.cs",
-              "RelativeToolTip": "Domain\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:43.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ImportRequest.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ImportRequest.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\ImportRequest.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ImportRequest.cs",
-              "RelativeToolTip": "Domain\\Models\\ImportRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:38.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ExportProduct.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ExportProduct.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\ExportProduct.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\ExportProduct.cs",
-              "RelativeToolTip": "Domain\\Models\\ExportProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:27.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CustomsClearance.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\CustomsClearance.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\CustomsClearance.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\CustomsClearance.cs",
-              "RelativeToolTip": "Domain\\Models\\CustomsClearance.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:20.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CostCalculation.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\CostCalculation.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\CostCalculation.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\CostCalculation.cs",
-              "RelativeToolTip": "Domain\\Models\\CostCalculation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:13.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Container.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Container.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Container.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Models\\Container.cs",
-              "RelativeToolTip": "Domain\\Models\\Container.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T09:39:03.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "ECommerce.IntegrationTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\UnitTest1.cs",
-              "RelativeToolTip": "ECommerce.IntegrationTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T08:24:42.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ECommerce.UnitTests",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\tests\\ECommerce.UnitTests.csproj",
-              "RelativeDocumentMoniker": "tests\\ECommerce.UnitTests.csproj",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\tests\\ECommerce.UnitTests.csproj",
-              "RelativeToolTip": "tests\\ECommerce.UnitTests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-06T08:23:12.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\tests\\UnitTest1.cs",
-              "RelativeToolTip": "tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T09:52:33.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-05T09:21:53.591Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -892,11 +293,830 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:41:17.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\Program.cs",
+              "RelativeDocumentMoniker": "APi_Deploy\\Program.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\Program.cs",
+              "RelativeToolTip": "APi_Deploy\\Program.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T11:33:58.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAA2wG0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:48:01.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\appsettings.json",
+              "RelativeDocumentMoniker": "APi_Deploy\\appsettings.json",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\appsettings.json",
+              "RelativeToolTip": "APi_Deploy\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-03T17:38:31.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "APi_Presentation.csproj",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\APi_Presentation.csproj",
+              "RelativeDocumentMoniker": "APi_Deploy\\APi_Presentation.csproj",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\APi_Presentation.csproj",
+              "RelativeToolTip": "APi_Deploy\\APi_Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-03T13:53:49.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:32:24.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:32:35.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:40:05.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:32:53.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APi_Deploy\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APi_Deploy\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:48:43.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Auth\\JwtSettings.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\DTOs\\Auth\\JwtSettings.cs",
+              "RelativeToolTip": "Application\\DTOs\\Auth\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:33:05.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Domain\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:35:47.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AuditLog.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\AuditLog.cs",
+              "RelativeToolTip": "Domain\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:37:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tracking.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Tracking.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Tracking.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Tracking.cs",
+              "RelativeToolTip": "Domain\\Models\\Tracking.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:40:22.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Review.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Review.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Review.cs",
+              "RelativeToolTip": "Domain\\Models\\Review.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:40:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExportProduct.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\ExportProduct.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ExportProduct.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\ExportProduct.cs",
+              "RelativeToolTip": "Domain\\Models\\ExportProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:27.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomsClearance.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\CustomsClearance.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\CustomsClearance.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\CustomsClearance.cs",
+              "RelativeToolTip": "Domain\\Models\\CustomsClearance.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA2wEkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:20.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Container.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Container.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Container.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Container.cs",
+              "RelativeToolTip": "Domain\\Models\\Container.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:03.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ImportRequest.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\ImportRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ImportRequest.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\ImportRequest.cs",
+              "RelativeToolTip": "Domain\\Models\\ImportRequest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA2wDYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:38.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserSession.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\UserSession.cs",
+              "RelativeToolTip": "Domain\\Models\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:40:29.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Seeders\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Seeders\\RoleSeeder.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Seeders\\RoleSeeder.cs",
+              "RelativeToolTip": "Infrastructure\\Seeders\\RoleSeeder.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwGIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:24:55.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppRoles.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Constants\\AppRoles.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\AppRoles.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Constants\\AppRoles.cs",
+              "RelativeToolTip": "Domain\\Constants\\AppRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:24:17.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:17:37.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Constants.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Constants.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Constants.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:27:02.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:14:37.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Common\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Common\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:38:06.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppErrorCode.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Enums\\AppErrorCode.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AppErrorCode.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Enums\\AppErrorCode.cs",
+              "RelativeToolTip": "Domain\\Enums\\AppErrorCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:50:01.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA3wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:47:57.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:47:46.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResponseViewModel.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\ViewModel\\ResponseViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModel\\ResponseViewModel.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\ViewModel\\ResponseViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModel\\ResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:25:33.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GlobalErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "APi_Deploy\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:52:58.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IGeneralRepository.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Interfaces\\IGeneralRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IGeneralRepository.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Interfaces\\IGeneralRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IGeneralRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:32:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GenerateToken.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Helpers\\GenerateToken.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Helpers\\GenerateToken.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Helpers\\GenerateToken.cs",
+              "RelativeToolTip": "Infrastructure\\Helpers\\GenerateToken.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:25:53.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GeneralRepository.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Repositories\\GeneralRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GeneralRepository.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Repositories\\GeneralRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\GeneralRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:29:30.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\ValidationException.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\ValidationException.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:52:05.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:51:38.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BusinessLogicException.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\BusinessLogicException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\BusinessLogicException.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\BusinessLogicException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\BusinessLogicException.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:51:12.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseApplicationException.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\BaseApplicationException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\BaseApplicationException.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Exceptions\\BaseApplicationException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\BaseApplicationException.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:50:40.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeToolTip": "APi_Deploy\\Extensions\\MiddlewareExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:53:40.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-05T09:23:12.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\BaseEntity.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Domain\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:38:18.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CustomsClearanceConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CustomsClearanceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:56:38.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CustomsDocumentConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CustomsDocumentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:56:50.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationUserConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ApplicationUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:58:00.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuditLogConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\AuditLogConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:57:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReviewConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ReviewConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:57:36.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MessageConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MessageConfiguration.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:57:14.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaymentConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\PaymentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:57:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CostCalculationConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CostCalculationConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:56:23.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ContainerItemConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ContainerItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:56:08.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "Domain",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Domain.csproj",
+              "Title": "ContainerConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ContainerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:55:09.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TrackingHistoryConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\TrackingHistoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:54:52.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TrackingConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\TrackingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:54:39.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ImportRequestConfiguration.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ImportRequestConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:54:16.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Product.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Product.cs",
+              "RelativeToolTip": "Domain\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:40:02.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Payment.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Payment.cs",
+              "RelativeToolTip": "Domain\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:53.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Notification.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Notification.cs",
+              "RelativeToolTip": "Domain\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:48.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Message.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Message.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\Message.cs",
+              "RelativeToolTip": "Domain\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:43.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CostCalculation.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Models\\CostCalculation.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\CostCalculation.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Models\\CostCalculation.cs",
+              "RelativeToolTip": "Domain\\Models\\CostCalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:39:13.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ECommerce.IntegrationTests\\UnitTest1.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\UnitTest1.cs",
+              "RelativeToolTip": "ECommerce.IntegrationTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:24:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ECommerce.UnitTests.csproj",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\tests\\ECommerce.UnitTests.csproj",
+              "RelativeDocumentMoniker": "tests\\ECommerce.UnitTests.csproj",
+              "ToolTip": "E:\\par e\\APi_Deploy\\tests\\ECommerce.UnitTests.csproj",
+              "RelativeToolTip": "tests\\ECommerce.UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-06T08:23:12.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\UnitTest1.cs",
+              "ToolTip": "E:\\par e\\APi_Deploy\\tests\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:52:33.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-05T09:21:53.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\Domain\\Domain.csproj",
+              "ToolTip": "E:\\par e\\APi_Deploy\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -905,11 +1125,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 65,
               "Title": "site61832-WebDeploy.pubxml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
+              "DocumentMoniker": "E:\\par e\\APi_Deploy\\APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
               "RelativeDocumentMoniker": "APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
+              "ToolTip": "E:\\par e\\APi_Deploy\\APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
               "RelativeToolTip": "APi_Deploy\\Properties\\PublishProfiles\\site61832-WebDeploy.pubxml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -918,12 +1138,10 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "20260403173955_init.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Migrations\\20260403173955_init.cs",
-              "RelativeDocumentMoniker": "APi_Deploy\\Migrations\\20260403173955_init.cs",
               "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\APi_Deploy\\Migrations\\20260403173955_init.cs",
-              "RelativeToolTip": "APi_Deploy\\Migrations\\20260403173955_init.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T17:39:55.959Z"
             }

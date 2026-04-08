@@ -10,3 +10,16 @@ C:\Users\hossny D. monkey\source\repos\APi_Deploy\Domain\obj\Debug\net10.0\refin
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Domain\obj\Debug\net10.0\Domain.pdb
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Domain\obj\Debug\net10.0\ref\Domain.dll
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Domain\obj\Debug\net10.0\Domain.csproj.AssemblyReference.cache
+E:\par e\APi_Deploy\Domain\bin\Debug\net10.0\Domain.deps.json
+E:\par e\APi_Deploy\Domain\bin\Debug\net10.0\Domain.dll
+E:\par e\APi_Deploy\Domain\bin\Debug\net10.0\Domain.pdb
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.csproj.AssemblyReference.cache
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.sourcelink.json
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.dll
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\refint\Domain.dll
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\Domain.pdb
+E:\par e\APi_Deploy\Domain\obj\Debug\net10.0\ref\Domain.dll

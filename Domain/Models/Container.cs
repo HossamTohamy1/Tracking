@@ -17,8 +17,9 @@ namespace Domain.Models
 
     /// <summary>
     /// الكونتنر المشترك - يجمع شحنات صغيرة (LCL) متعددة
-    /// يديره المكتب (Office)
-    /// تكلفة الشحن تُوزَّع على الشحنات بحسب الوزن أو الحجم
+    /// يديره مستخدم بدور ImportOffice
+    /// تكلفة الشحن تُوزَّع على الشحنات بحسب الحجم:
+    ///   CostShare = (VolumeCbm / TotalVolumeCbm) × TotalShippingCost
     /// </summary>
     public class Container : BaseEntity
     {
@@ -41,12 +42,13 @@ namespace Domain.Models
         // تكلفة الشحن الإجمالية للكونتنر (تُوزَّع على الشحنات)
         public decimal TotalShippingCost { get; set; } = 0;
 
-        // المكتب المسؤول عن الكونتنر
+        // المكتب المسؤول — Role = ImportOffice
         public Guid ManagedByOfficeId { get; set; }
         public virtual ApplicationUser ManagedByOffice { get; set; } = null!;
 
         // Navigation Properties
         public virtual ICollection<ContainerItem> Items { get; set; } = new List<ContainerItem>();
+        public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
     }
 
     /// <summary>
@@ -61,8 +63,7 @@ namespace Domain.Models
         public decimal WeightKg { get; set; }
         public decimal VolumeCbm { get; set; }
 
-        // الحصة المحسوبة من تكلفة الشحن الإجمالية للكونتنر
-        // تُحسب: (Volume / TotalVolume) × TotalShippingCost
+        // الحصة المحسوبة: (VolumeCbm / TotalVolumeCbm) × TotalShippingCost
         public decimal CostShare { get; set; } = 0;
 
         // Navigation Properties

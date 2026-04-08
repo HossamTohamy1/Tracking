@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj": {}
+    "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj": {
+    "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj",
+        "projectUniqueName": "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj",
         "projectName": "ECommerce.IntegrationTests",
-        "projectPath": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj",
+        "projectPath": "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\ECommerce.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\hossny D. monkey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossny D. monkey\\source\\repos\\APi_Deploy\\ECommerce.IntegrationTests\\obj\\",
+        "outputPath": "E:\\par e\\APi_Deploy\\ECommerce.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"

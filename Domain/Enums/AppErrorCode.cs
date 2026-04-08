@@ -17,5 +17,7 @@ namespace Domain.Enums
         InvalidCredentials = 2000,
         TokenExpired = 2001,
         AccountLocked = 2002,
+        EmailAlreadyExists = 2003,
+        AccountInactive = 2004,
     }
 }

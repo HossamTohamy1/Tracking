@@ -1,15 +1,18 @@
 using System;
 using System.Collections.Generic;
 
-    namespace Domain.Models
-    {
+namespace Domain.Models
+{
     /// <summary>
-    /// المنتجات القابلة للتصدير - يضيفها أصحاب المنتجات (User أو Office)
-    /// مرئية للمشترين الخارجيين للاستفسار عنها
+    /// المنتجات القابلة للتصدير
+    /// Seller → ApplicationUser بدور Exporter
+    /// مرئية لأي مستخدم للاستفسار عنها عبر الرسائل
     /// </summary>
     public class ExportProduct : BaseEntity
     {
+        /// <summary>صاحب المنتج — Role = Exporter</summary>
         public Guid SellerId { get; set; }
+
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public string Category { get; set; } = string.Empty;
@@ -27,7 +30,9 @@ using System.Collections.Generic;
         public bool IsAvailable { get; set; } = true;
 
         // Navigation Properties
+        /// <summary>صاحب المنتج — ApplicationUser بدور Exporter</summary>
         public virtual ApplicationUser Seller { get; set; } = null!;
+
         public virtual ICollection<Message> Messages { get; set; } = new List<Message>();
         public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
     }

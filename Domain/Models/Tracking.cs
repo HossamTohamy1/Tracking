@@ -6,19 +6,19 @@ namespace Domain.Models
     public enum ShipmentStage
     {
         Purchased = 0,
-        Processing = 1,    // جاري التجهيز
+        Processing = 1,      // جاري التجهيز
         ReadyToShip = 2,
-        Shipped = 3,       // تم الشحن / على الباخرة
-        InTransit = 4,     // في الطريق
-        ArrivedPort = 5,   // وصل الميناء
-        Customs = 6,       // في التخليص الجمركي
+        Shipped = 3,         // تم الشحن / على الباخرة
+        InTransit = 4,       // في الطريق
+        ArrivedPort = 5,     // وصل الميناء
+        Customs = 6,         // في التخليص الجمركي
         OutForDelivery = 7,
         Delivered = 8,
-        Exception = 9      // مشكلة / توقف
+        Exception = 9        // مشكلة / توقف
     }
 
     /// <summary>
-    /// تتبع الشحنة - يُنشأ تلقائياً عند الموافقة على الطلب
+    /// تتبع الشحنة — يُنشأ تلقائياً عند موافقة ImportOffice على الطلب
     /// يحتفظ بالمرحلة الحالية + سجل كامل بالتغييرات
     /// </summary>
     public class Tracking : BaseEntity
@@ -30,7 +30,7 @@ namespace Domain.Models
         public string? CurrentLocation { get; set; }
         public DateTime? EstimatedDeliveryDate { get; set; }
 
-        // تواريخ المراحل الرئيسية (تُملأ عند الوصول لكل مرحلة)
+        // تواريخ المراحل الرئيسية
         public DateTime? ShippedAt { get; set; }
         public DateTime? ArrivedPortAt { get; set; }
         public DateTime? CustomsClearedAt { get; set; }
@@ -43,6 +43,7 @@ namespace Domain.Models
 
     /// <summary>
     /// سجل كل تغيير في حالة التتبع (Audit Trail للشحنة)
+    /// UpdatedBy → ImportOffice أو Admin
     /// </summary>
     public class TrackingHistory : BaseEntity
     {
@@ -52,11 +53,13 @@ namespace Domain.Models
         public string? Location { get; set; }
         public DateTime OccurredAt { get; set; } = DateTime.UtcNow;
 
-        // من قام بتحديث الحالة (Office أو Admin)
+        /// <summary>من قام بتحديث الحالة — ImportOffice أو Admin</summary>
         public Guid? UpdatedByUserId { get; set; }
 
         // Navigation Properties
         public virtual Tracking Tracking { get; set; } = null!;
+
+        /// <summary>ApplicationUser بدور ImportOffice أو Admin</summary>
         public virtual ApplicationUser? UpdatedBy { get; set; }
     }
 }

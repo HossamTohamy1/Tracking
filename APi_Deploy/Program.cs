@@ -1,12 +1,19 @@
 using APi_Presentation.Extensions;
+using Application.Common;
+using Application.Features.Auth.Commands.Register;
 using Domain.Models;
 using Infrastructure.Data;
+using Infrastructure.Seeders;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
 using Serilog;
+using System.Text;
 
 // ============================================================
-// 1️⃣ Serilog — Initialize Early (قبل أي حاجة)
+// 1️⃣ Serilog — مبكراً
 // ============================================================
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(new ConfigurationBuilder()
@@ -19,7 +26,6 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File(
         path: "Logs/log-.txt",
         rollingInterval: RollingInterval.Day,
-        outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}] [{Level:u3}] [{SourceContext}] {Message:lj} {Properties:j}{NewLine}{Exception}",
         retainedFileCountLimit: 30)
     .CreateLogger();
 
@@ -28,8 +34,6 @@ try
     Log.Information("Starting Shipping & Import API");
 
     var builder = WebApplication.CreateBuilder(args);
-
-    // ✅ استخدام Serilog كـ Logger رئيسي
     builder.Host.UseSerilog();
 
     // ============================================================
@@ -48,38 +52,73 @@ try
         options.Password.RequireNonAlphanumeric = false;
         options.Password.RequireUppercase = true;
         options.Password.RequireLowercase = true;
-
         options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
         options.Lockout.MaxFailedAccessAttempts = 5;
-
         options.User.RequireUniqueEmail = true;
     })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
     // ============================================================
-    // 4️⃣ Core Services
+    // 4️⃣ JWT Authentication
     // ============================================================
-    builder.Services.AddHttpContextAccessor();
+    var jwtSection = builder.Configuration.GetSection("JwtSettings");
+    builder.Services.Configure<JwtSettings>(jwtSection);
+
+    var jwtSettings = jwtSection.Get<JwtSettings>()!;
+    var key = Encoding.UTF8.GetBytes(jwtSettings.SecretKey);
+
+    builder.Services
+        .AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.RequireHttpsMetadata = false; // true في Production
+            options.SaveToken = true;
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(key),
+                ValidateIssuer = true,
+                ValidIssuer = jwtSettings.Issuer,
+                ValidateAudience = true,
+                ValidAudience = jwtSettings.Audience,
+                ValidateLifetime = true,
+                ClockSkew = TimeSpan.Zero
+            };
+        });
+
+    builder.Services.AddAuthorization();
 
     // ============================================================
-    // 5️⃣ CORS
+    // 5️⃣ MediatR + HttpContext
+    // ============================================================
+    builder.Services.AddHttpContextAccessor();
+    builder.Services.AddMediatR(cfg =>
+        cfg.RegisterServicesFromAssembly(typeof(RegisterCommandHandler).Assembly));
+
+    // ============================================================
+    // 6️⃣ Seeder (Scoped)
+    // ============================================================
+    builder.Services.AddScoped<RoleSeeder>();
+
+    // ============================================================
+    // 7️⃣ CORS
     // ============================================================
     builder.Services.AddCors(options =>
     {
         options.AddPolicy("AllowReact", policy =>
-        {
             policy
-                .WithOrigins(
-                    "http://localhost:5173",
-                    "https://my-portfolie7.netlify.app")
+                .WithOrigins("http://localhost:5173", "https://my-portfolie7.netlify.app")
                 .AllowAnyHeader()
-                .AllowAnyMethod();
-        });
+                .AllowAnyMethod());
     });
 
     // ============================================================
-    // 6️⃣ Controllers + JSON
+    // 8️⃣ Controllers + JSON
     // ============================================================
     builder.Services.AddControllers()
         .AddJsonOptions(opts =>
@@ -91,20 +130,30 @@ try
         });
 
     // ============================================================
-    // 7️⃣ Swagger
+    // 9️⃣ Swagger (بدون SecurityRequirement)
     // ============================================================
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(c =>
     {
-        c.SwaggerDoc("v1", new()
+        c.SwaggerDoc("v1", new OpenApiInfo
         {
             Title = "Shipping & Import API",
             Version = "v1"
         });
+
+        c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+        {
+            Name = "Authorization",
+            Type = SecuritySchemeType.Http,
+            Scheme = "Bearer",
+            BearerFormat = "JWT",
+            In = ParameterLocation.Header,
+            Description = "Enter your JWT token here. Example: Bearer eyJhbGci..."
+        });
     });
 
     // ============================================================
-    // 8️⃣ Global Error Handler ✅ (قبل Build)
+    // 🔟 Global Error Handler
     // ============================================================
     builder.Services.AddGlobalErrorHandler();
 
@@ -113,51 +162,50 @@ try
     // ============================================================
     var app = builder.Build();
 
-    // ============================================================
-    // 9️⃣ Auto Migrate
-    // ============================================================
-    using (var scope = app.Services.CreateScope())
+    var isEfMigration = args.Contains("/efmigration");
+
+    if (!isEfMigration)
     {
-        var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        db.Database.Migrate();
-    }
-
-    // ============================================================
-    // 🔟 Middleware Pipeline
-    // ============================================================
-
-    // ✅ أول حاجة — Global Error Handler
-    app.UseGlobalErrorHandler();
-
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Shipping API v1");
-        c.RoutePrefix = "swagger";
-    });
-
-    app.UseCors("AllowReact");
-    app.UseHttpsRedirection();
-    app.UseStaticFiles();
-
-    // ✅ Serilog Request Logging
-    app.UseSerilogRequestLogging(options =>
-    {
-        options.EnrichDiagnosticContext = (diagnosticContext, httpContext) =>
+        using (var scope = app.Services.CreateScope())
         {
-            diagnosticContext.Set("RequestHost", httpContext.Request.Host.Value);
-            diagnosticContext.Set("RequestScheme", httpContext.Request.Scheme);
-            diagnosticContext.Set("RemoteIpAddress", httpContext.Connection.RemoteIpAddress);
-        };
-    });
+            var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+            db.Database.Migrate();
 
-    app.UseAuthentication();
-    app.UseAuthorization();
+            var seeder = scope.ServiceProvider.GetRequiredService<RoleSeeder>();
+            await seeder.SeedAsync();
+        }
 
-    app.MapControllers();
+        app.UseGlobalErrorHandler();
 
-    Log.Information("Shipping & Import API started successfully");
-    await app.RunAsync();
+        app.UseSwagger();
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Shipping API v1");
+            c.RoutePrefix = "swagger";
+        });
+
+        app.UseCors("AllowReact");
+        app.UseHttpsRedirection();
+        app.UseStaticFiles();
+
+        app.UseSerilogRequestLogging(options =>
+        {
+            options.EnrichDiagnosticContext = (diag, http) =>
+            {
+                diag.Set("RequestHost", http.Request.Host.Value);
+                diag.Set("RequestScheme", http.Request.Scheme);
+                diag.Set("RemoteIpAddress", http.Connection.RemoteIpAddress);
+            };
+        });
+
+        app.UseAuthentication();
+        app.UseAuthorization();
+
+        app.MapControllers();
+
+        Log.Information("Shipping & Import API started successfully");
+        await app.RunAsync();
+    }
 }
 catch (Exception ex)
 {

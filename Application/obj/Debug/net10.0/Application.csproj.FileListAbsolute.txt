@@ -10,3 +10,19 @@ C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.pdb
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\ref\Application.dll
 C:\Users\hossny D. monkey\source\repos\APi_Deploy\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache
+E:\par e\APi_Deploy\Application\bin\Debug\net10.0\Application.deps.json
+E:\par e\APi_Deploy\Application\bin\Debug\net10.0\Application.dll
+E:\par e\APi_Deploy\Application\bin\Debug\net10.0\Application.pdb
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.AssemblyInfoInputs.cache
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.AssemblyInfo.cs
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.csproj.CoreCompileInputs.cache
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.sourcelink.json
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.dll
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\refint\Application.dll
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Application.pdb
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\ref\Application.dll
+E:\par e\APi_Deploy\Application\bin\Debug\net10.0\Domain.dll
+E:\par e\APi_Deploy\Application\bin\Debug\net10.0\Domain.pdb
+E:\par e\APi_Deploy\Application\obj\Debug\net10.0\Applicat.44B5EDA2.Up2Date
