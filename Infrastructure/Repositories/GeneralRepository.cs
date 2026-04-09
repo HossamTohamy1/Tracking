@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Infrastructure.Repositories
 {
-    internal class GeneralRepository<T> : IGeneralRepository<T> where T : BaseEntity
+    public class GeneralRepository<T> : IGeneralRepository<T> where T : BaseEntity
     {
         private readonly ApplicationDbContext _context;
         private readonly DbSet<T> _dbSet;

@@ -2,6 +2,7 @@ using APi_Presentation.Extensions;
 using Application.Common;
 using Application.Common.Mappings;
 using Application.Features.Auth.Commands.Register;
+using Domain.Interfaces;
 using Domain.Models;
 using Infrastructure.Data;
 using Infrastructure.Seeders;
@@ -12,6 +13,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using Serilog;
 using System.Text;
+using Infrastructure.Repositories;
 
 // ============================================================
 // 1️⃣ Serilog 
@@ -106,8 +108,9 @@ try
     // ============================================================
     // 6️⃣ Seeder (Scoped)
     // ============================================================
-    builder.Services.AddScoped<RoleSeeder>();
+    builder.Services.AddScoped(typeof(IGeneralRepository<>), typeof(GeneralRepository<>));
 
+    builder.Services.AddScoped<RoleSeeder>();
     // ============================================================
     // 7️⃣ CORS
     // ============================================================

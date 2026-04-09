@@ -6,11 +6,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Infrastructure.Seeders
 {
-    /// <summary>
-    /// يُشغَّل مرة واحدة عند بدء التطبيق.
-    /// ينشئ الـ Roles وحسابي Admin و Support الافتراضيَّين لو مش موجودين.
-    /// بيانات الادمن من appsettings.json → Section "DefaultAdmin"
-    /// </summary>
+
     public class RoleSeeder
     {
         private readonly RoleManager<IdentityRole<Guid>> _roleManager;
