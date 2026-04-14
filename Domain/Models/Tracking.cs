@@ -1,21 +1,9 @@
+using Domain.Enums.Enums_Models;
 using System;
 using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    public enum ShipmentStage
-    {
-        Purchased = 0,
-        Processing = 1,   
-        ReadyToShip = 2,
-        Shipped = 3,         
-        InTransit = 4,       
-        ArrivedPort = 5,     
-        Customs = 6,         
-        OutForDelivery = 7,
-        Delivered = 8,
-        Exception = 9        
-    }
 
 
     public class Tracking : BaseEntity

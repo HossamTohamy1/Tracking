@@ -220,6 +220,9 @@ namespace Infrastructure.Migrations
                     b.Property<string>("OriginPort")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ShipmentType")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("ShippedAt")
                         .HasColumnType("datetime2");
 

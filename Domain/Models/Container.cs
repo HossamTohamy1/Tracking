@@ -11,6 +11,7 @@ namespace Domain.Models
     {
         public string ContainerNumber { get; set; } = string.Empty;  // UNIQUE
         public ContainerStatus Status { get; set; } = ContainerStatus.Open;
+        public ShipmentType ShipmentType { get; set; } = ShipmentType.LCL;
 
         public decimal MaxWeightKg { get; set; }
         public decimal MaxVolumeCbm { get; set; }

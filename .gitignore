@@ -29,3 +29,5 @@ Thumbs.db
 
 # Others
 *.cache
+config.bat
+node_modules

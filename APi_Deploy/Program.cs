@@ -79,7 +79,7 @@ try
         })
         .AddJwtBearer(options =>
         {
-            options.RequireHttpsMetadata = false; 
+            options.RequireHttpsMetadata = false;
             options.SaveToken = true;
             options.TokenValidationParameters = new TokenValidationParameters
             {
@@ -111,6 +111,7 @@ try
     builder.Services.AddScoped(typeof(IGeneralRepository<>), typeof(GeneralRepository<>));
 
     builder.Services.AddScoped<RoleSeeder>();
+
     // ============================================================
     // 7️⃣ CORS
     // ============================================================
@@ -125,6 +126,7 @@ try
                 .AllowAnyHeader()
                 .AllowAnyMethod());
     });
+
     // ============================================================
     // 8️⃣ Controllers + JSON
     // ============================================================
@@ -135,10 +137,12 @@ try
                 System.Text.Json.JsonNamingPolicy.CamelCase;
             opts.JsonSerializerOptions.ReferenceHandler =
                 System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+            opts.JsonSerializerOptions.Converters.Add(
+                new System.Text.Json.Serialization.JsonStringEnumConverter());
         });
 
     // ============================================================
-    // 9️⃣ Swagger (بدون SecurityRequirement)
+    // 9️⃣ Swagger
     // ============================================================
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(c =>
@@ -195,6 +199,13 @@ try
         app.UseCors("AllowReact");
         app.UseHttpsRedirection();
         app.UseStaticFiles();
+
+     
+        app.Use(async (context, next) =>
+        {
+            context.Request.EnableBuffering();
+            await next();
+        });
 
         app.UseSerilogRequestLogging(options =>
         {
